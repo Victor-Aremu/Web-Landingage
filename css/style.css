@@ -1,5 +1,26 @@
-.trend{
+.trend {
     text-align: center;
     color: black;
     font-family: consolas;
+}
+
+img {
+    width: 100%;
+    margin-top: -16px;
+}
+
+.trending {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.trending img {
+    transition: transform .5s ease;
+
+}
+
+.trending:hover img {
+    transform: scale(1.05);
 }
